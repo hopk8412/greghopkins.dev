@@ -10,6 +10,8 @@
     @media screen and (max-width: 600px) {
   .navbar-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 }
 	.navbar {
@@ -20,17 +22,18 @@
 		display: flex;
 		justify-content: center;
 		background-color: #291528;
-		border-radius: 12px;
+		/* border-radius: 12px; */
 		box-shadow: 10px 5px 5px #5e4988;
-		width: 50%;
+		width: 100%;
 	}
 	.nav-item {
 		padding: 30px;
 		text-decoration: none;
 		color: #fff;
 	}
-	.nav-item:hover {
+	.nav-item:hover, .nav-item:active {
 		color: #8a4fff;
+        background-color: #fff;
 		transition: 0.3s;
 	}
 	@font-face {

@@ -6,10 +6,10 @@
 
 <section id="card-grid">
 	<Card {cardColorOptions}>
-		<h1 class="header" slot="cardHeader">Lifelong Learner</h1>
+		<h1 class="header" slot="cardHeader">My Personal Philosophy</h1>
 		<p class="content" slot="cardContent">
-			Something that I enjoy is learning something new. Whether it is in my sparetime or on the job, I know that I will always have room for improvement.
-            To that end, I try to learn the latest in web development in terms of languages, frameworks, design patterns, and more.
+			I am big on self-improvement and continuing education. Whether it is in my sparetime or on the job, I know that there will always be opportunities to learn more.
+            To that end, I am always trying to learn new things, whether that is programming-related, new recipes, and more!
 		</p>
 	</Card>
 	<Card {cardColorOptions}>
