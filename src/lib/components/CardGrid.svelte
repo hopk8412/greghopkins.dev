@@ -44,8 +44,16 @@
 	}
 
 	.hobbies {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 2rem;
 		list-style-type: '\2713\0020';
 	}
+
+    .hobbies > li {
+        flex-grow: 1;
+    }
     .link {
 		color: #fff;
     }
