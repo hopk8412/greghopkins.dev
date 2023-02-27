@@ -28,7 +28,7 @@
 		margin: 30px;
 		padding: 10px;
 		text-align: center;
-		border-radius: 100px;
+		border-radius: 60px;
 		box-shadow: 10px 5px 5px gray;
 		display: inline-block;
 		justify-content: center;
@@ -53,7 +53,7 @@
 		background-color: #8a4fff;
 	}
 
-	.card:hover {
+	.card:hover, .card:active {
 		transform: translate(0, -10px);
 		transition: 0.6s;
 	}

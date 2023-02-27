@@ -11,6 +11,11 @@
 </div>
 
 <style>
+    @media screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+}
+}
     .content {
         margin: 20px;
         display: flex;
