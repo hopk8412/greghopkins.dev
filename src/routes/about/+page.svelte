@@ -1,1 +1,4 @@
-<h1>About Page</h1>
+<script>
+	import AboutContainer from "../../lib/components/AboutContainer.svelte";
+</script>
+<AboutContainer />

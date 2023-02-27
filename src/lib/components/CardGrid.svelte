@@ -6,27 +6,31 @@
 
 <section id="card-grid">
 	<Card {cardColorOptions}>
-		<h1 slot="cardHeader">Lifelong Learner</h1>
-		<p slot="cardContent">
-			Something that I enjoy is learning something new. Whether it's in my sparetime or on the job, I know that I will always have room for improvement.
+		<h1 class="header" slot="cardHeader">Lifelong Learner</h1>
+		<p class="content" slot="cardContent">
+			Something that I enjoy is learning something new. Whether it is in my sparetime or on the job, I know that I will always have room for improvement.
             To that end, I try to learn the latest in web development in terms of languages, frameworks, design patterns, and more.
 		</p>
 	</Card>
 	<Card {cardColorOptions}>
-		<h1 slot="cardHeader">My Skills</h1>
-		<ul class="skillList" slot="cardContent">
-			<li>Spring Boot</li>
-			<li>Node.js</li>
-			<li>Go</li>
-		</ul>
+		<h1 class="header" slot="cardHeader">My Skills</h1>
+        <div class="content" slot="cardContent">
+		<p>I am a backend developer first and foremost, though I do try to keep up to date on the latest in the frontend world.</p>
+        <p>Backend languages I am comfortable with include
+            Java (Spring Boot), Javascript (Node.js), and Go
+        </p>
+        <p><strong>Note!</strong> Please view my <a class="link" href="/about">About</a> section to see a comprehensive list of my qualifications.</p>
+    </div>
 	</Card>
 	<Card {cardColorOptions}>
-		<h1 slot="cardHeader">Updated Header Text</h1>
-		<p slot="cardContent">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempore sit dolores
-			architecto dignissimos autem impedit, quibusdam soluta, eos modi minima cupiditate cum
-			corrupti debitis quam id aperiam beatae molestiae.
-		</p>
+		<h1 class="header" slot="cardHeader">Non-computer hobbies</h1>
+		<div class="content" slot="cardContent">
+			<ul class="hobbies">
+                <li>Being Outdoors</li>
+                <li>Baking and Cooking</li>
+                <li>Video Games</li>
+            </ul>
+        </div>
 	</Card>
 </section>
 
@@ -34,16 +38,24 @@
 	section {
 		width: 100%;
 		margin: 30px 0px;
-		/* display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem; */
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
 
-	.skillList {
+	.hobbies {
+        height: 30px;
+        line-height: 3rem;
 		list-style-type: '\2713\0020';
 	}
+    .link {
+		color: #fff;
+    }
+
+    .header {
+        margin-bottom: 0;
+    }
+    .content {
+        margin-top: 0;
+    }
 </style>
