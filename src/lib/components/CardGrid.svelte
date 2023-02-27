@@ -26,7 +26,7 @@
 		<h1 class="header" slot="cardHeader">Non-computer hobbies</h1>
 		<div class="content" slot="cardContent">
 			<ul class="hobbies">
-                <li>Being Outdoors</li>
+                <li>Music</li>
                 <li>Baking and Cooking</li>
                 <li>Video Games</li>
             </ul>
@@ -44,8 +44,6 @@
 	}
 
 	.hobbies {
-        height: 30px;
-        line-height: 3rem;
 		list-style-type: '\2713\0020';
 	}
     .link {

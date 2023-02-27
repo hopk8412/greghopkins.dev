@@ -7,6 +7,11 @@
 </nav>
 
 <style>
+    @media screen and (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column;
+}
+}
 	.navbar {
 		display: flex;
 		justify-content: center;
